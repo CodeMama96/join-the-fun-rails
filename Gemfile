@@ -7,6 +7,7 @@ gem 'sass-rails', "~> 5.0.0"
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier'
 gem 'bootsnap'
+#gem 'pry-rails'
 
 gem 'sqlite3', '~>1.3.6'
 
@@ -16,6 +17,8 @@ group :development, :test do
   gem "database_cleaner"
   gem "pry-byebug"
   gem "rspec-rails"
+  gem 'pry'
+  gem 'pry-rails'
 end
 
 group :test do
